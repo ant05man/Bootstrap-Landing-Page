@@ -1,11 +1,23 @@
-/* Styles for the hero section */
 .hero {
-    background-color: #282c34;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgb(8, 0, 0)), url('path-to-image.jpg') no-repeat center center/cover;
     color: white;
     height: 100vh;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    flex-direction: column;
   }
   
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .hero a {
+    margin-top: 20px;
+  }
+  
+  .btn-primary {
+    background-color:red;
+  }

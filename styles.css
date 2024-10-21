@@ -1,3 +1,5 @@
+/* styles.css */
+
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgb(8, 0, 0)), url('path-to-image.jpg') no-repeat center center/cover;
     color: white;
@@ -7,17 +9,32 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  }
-  
-  .hero h1 {
+}
+
+.hero h1 {
     font-size: 3rem;
     font-weight: bold;
-  }
-  
-  .hero a {
+}
+
+.hero a {
     margin-top: 20px;
-  }
-  
-  .btn-primary {
-    background-color:red;
-  }
+}
+
+.btn-primary {
+    background-color: red;
+}
+
+.skill-icon {
+    font-size: 5rem;
+    color: #ff5722;
+    transition: transform 0.3s;
+}
+
+.skill-icon:hover {
+    transform: scale(1.2);
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}

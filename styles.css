@@ -1,0 +1,11 @@
+/* Styles for the hero section */
+.hero {
+    background-color: #282c34;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
